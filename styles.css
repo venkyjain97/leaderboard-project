@@ -1,0 +1,67 @@
+/* Style for the leaderboard heading */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Style for the form */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Style for the form inputs */
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Style for the form button */
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the leaderboard list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for each leaderboard item */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style for the leaderboard item number */
+li:before {
+  content: attr(data-number) '.';
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+/* Style for the leaderboard item name */
+li span.name {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+/* Style for the leaderboard item score */
+li span.score {
+  font-weight: bold;
+}
